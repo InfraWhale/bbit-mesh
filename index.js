@@ -5,8 +5,8 @@ const io = require('socket.io')(http);
 
 server.use(express.static('public'));
 
-http.listen(3000, () => {
-    console.log('Server started at: 3000');
+http.listen(3001, () => {
+    console.log('Server started at: 3001');
 });
 
 server.get('/', function(req, res){
